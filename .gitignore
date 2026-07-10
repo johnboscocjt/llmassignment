@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/logs/*.log
+data/feedback.jsonl
+.streamlit/
+.DS_Store
+plans/
+.agents/
+skills-lock.json
+data/*.pdf
