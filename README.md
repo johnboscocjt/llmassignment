@@ -159,7 +159,7 @@ Optional on 8 GB RAM: run `setup_ollama_env.bat` before pulling the model.
 ### Step 3 — Verify
 
 ```powershell
-pytest tests/ -v
+.\.venv\Scripts\python.exe -m pytest tests/ -v
 ```
 
 ---
@@ -197,7 +197,7 @@ Health check: http://127.0.0.1:8000/health
 ## Testing
 
 ```powershell
-pytest tests/ -v
+.\.venv\Scripts\python.exe -m pytest tests/ -v
 ```
 
 | Test | Checks |
